@@ -1,0 +1,15 @@
+1.SystemTest 
+	1.1 CmdExec:Runtime运行系统命令
+	1.2 SystemProperties:通过System.getProperties()获取系统参数
+2.IOtest
+	2.1 Tail: 用RandomAccessFile模拟tail命令
+3.emailTest
+	3.1 SendSMTPMail：使用SMTP发送邮件 
+	3.2 POP3Demo SMTP协议接收邮件
+	3.3 JavaMail: 使用javamail发送邮件 
+4.concurrent
+	4.1 SemaphoreTest
+	一个计数信号量。从概念上讲，信号量维护了一个许可集合。如有必要，在许可可用前会阻塞每一个 acquire()，然后再获取该许可。每个 release() 添加一个许可，从而可能释放一个正在阻塞的获取者。但是，不使用实际的许可对象，Semaphore 只对可用许可的号码进行计数，并采取相应的行动。
+	Semaphore 通常用于限制可以访问某些资源（物理或逻辑的）的线程数目。
+5.zip
+    5.1 zip压缩、解压
